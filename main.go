@@ -2,6 +2,7 @@ package main
 
 import (
 	"awesomeProject/task1"
+	"awesomeProject/task2"
 	"fmt"
 )
 
@@ -59,4 +60,12 @@ func main() {
 	*/
 	intervals := [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
 	fmt.Println("Intervals:", task1.MergeIntervals(intervals))
+
+	pointnum := 10
+	task2.PointerTask1(&pointnum)
+	fmt.Println(pointnum)
+
+	pointnums := []int{1, 2, 3, 4, 5}
+	task2.PointerTask2(&pointnums)
+	fmt.Println(pointnums)
 }
