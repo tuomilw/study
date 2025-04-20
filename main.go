@@ -68,4 +68,6 @@ func main() {
 	pointnums := []int{1, 2, 3, 4, 5}
 	task2.PointerTask2(&pointnums)
 	fmt.Println(pointnums)
+
+	task2.RunGoroutineTask1()
 }
